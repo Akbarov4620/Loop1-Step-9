@@ -1,0 +1,67 @@
+.balance{
+   @include balance;
+
+   &__heading{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    margin-bottom: 15px;
+
+        h3{
+            margin: 0;
+            font-weight: 400;
+        }
+
+        p{
+            font-weight: 700;
+            font-size: 24px;
+            margin: 0;
+        }
+    }
+
+    hr{
+        height: 0.5px;
+        border: 1px solid $primary-color-gray;
+        margin-top: 40px;
+    }
+
+    &__list{
+
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 45px;
+
+            span{
+                display: block;
+                border: 1px solid $primary-color-gray;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                padding: 3px 4px 2px;
+                margin: 0;
+                margin-right: 30px;
+                cursor: pointer;
+            }
+
+            div{
+                margin: 0;
+
+                p{
+                    margin: 0;
+                    margin-top: 5px;
+                    font-size: 12px;
+                }
+
+            }
+            
+            .prica{
+                margin: 0;
+                margin-left: 142px;
+            }
+
+        }
+        
+    }
+}

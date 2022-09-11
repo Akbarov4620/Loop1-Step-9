@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(247, 205, 117);
+    display: flex;
+    align-items: center;
+}
+
+.purchase{
+    display: flex;
+}
+
+.grey{
+    color: $primary-color-grey;
+}
+
+.gray{
+    color: $primary-color-gray;
+}
+
+.black{
+    color: $primary-color-black;
+}
+
+.blue{
+    color: $primary-color-blue;
+}
+
+.green{
+    color: rgb(138, 206, 94);
+}
+
+.size-14px{
+    font-size: 14px;
+}
